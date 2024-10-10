@@ -17,8 +17,16 @@ else:
   print(f'you bought fish from the market')
 
   #Approach one 
-  if food_type!= input("chicken") or food_type!=("liver") or food_type!=("fish"):
-            print(f"you have entered a wrong food type:")
+if food_type!= input("chicken") or food_type!=("liver") or food_type!=("fish"):
+     print(f"you have entered a wrong food type:")
+elif food_type == 'chicken':
+    print(f"you bought chicken from the market")
+elif food_type =="liver":
+     print(f'you bought liver from the market')
+else: 
+     print(f'you bought fish from the market')
+
+      
 
 
             
